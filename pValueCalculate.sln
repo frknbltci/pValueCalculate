@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pValueCalculate", "pValueCalculate\pValueCalculate.csproj", "{C2CC2245-DD8D-4C5C-8EF4-6620DBF2A882}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2CC2245-DD8D-4C5C-8EF4-6620DBF2A882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2CC2245-DD8D-4C5C-8EF4-6620DBF2A882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2CC2245-DD8D-4C5C-8EF4-6620DBF2A882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2CC2245-DD8D-4C5C-8EF4-6620DBF2A882}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9490905-9A77-4B81-9660-24BA20457E76}
+	EndGlobalSection
+EndGlobal
