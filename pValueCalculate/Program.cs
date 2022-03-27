@@ -47,8 +47,7 @@ namespace pValueCalculate
             Console.WriteLine("95%  Güven aralığı ortalaması: {0:F1} - {1:F1}",
                 ortGuvenAralik.LowerBound, ortGuvenAralik.UpperBound);
 
-            // We can get the same scores for the 0.01 significance level by explicitly
-            // passing the significance level as a parameter to these methods:
+          
             Console.WriteLine("Önem Değeri: ", 0.01);
             Console.WriteLine("Ho Hipotezini Reddetme Durumu ? {0}", zTest.Reject(0.01) ? "Reddet" : "Reddetme");
             
@@ -68,7 +67,7 @@ namespace pValueCalculate
 
             // Önem değeri default olarak 0.05 dir:
             Console.WriteLine("Önem Değeri: ", tTest.SignificanceLevel);
-            // We can now print the test scores:
+          
             Console.WriteLine("Ho Hipotezini Reddetme Durumu ? {0}", tTest.Reject() ? "Reddet" : "Reddetme");
            
             
@@ -95,7 +94,7 @@ namespace pValueCalculate
             // Önem Değeri yine 0.05
             //tTest2.SignificanceLevel = 0.5 gibi setlenebilir.
             Console.WriteLine("Önem Değeri:     {0:F2}", tTest2.SignificanceLevel);
-            // We can now print the test scores:
+          
             Console.WriteLine("Ho Hipotezini Reddetme Durumu ? {0}", tTest2.Reject() ? "Reddet" : "Reddetme");
 
             Console.Write("Çıkış için bir tuşa bas..");
